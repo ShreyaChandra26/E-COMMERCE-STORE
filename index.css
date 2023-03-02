@@ -1,0 +1,100 @@
+body {
+  background-color: white;
+}
+
+#navbar {
+  display: flex;
+  width: 1330px;
+  height: 60px;
+
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 25px;
+}
+
+.nav {
+  margin-left: 200px;
+}
+
+.nav:hover {
+  color: red;
+}
+
+#main-name {
+  font-size: 25px;
+  font-family: cursive;
+  color: chocolate;
+}
+
+h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: darkgreen;
+  text-decoration: underline;
+}
+
+#head-image {
+  width: 1380px;
+  height: 800px;
+  background-image: url(images/head_image.jpg);
+  background-size: cover;
+}
+
+#main-box {
+  width: 1320px;
+  min-height: 600px;
+  /* border: 2px solid black; */
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  /* background-image: url(images/back_image.jpg); */
+}
+
+.pic {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+#game-name {
+  font-family: monospace;
+  font-weight: 800;
+  font-size: 35px;
+  color: brown;
+}
+
+img {
+  border-radius: 15px;
+}
+
+a:hover {
+  color: red;
+  font-size: 25px;
+}
+
+a {
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+button {
+  background-color: grey;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  font-family: cursive;
+  font-size: 15px;
+}
+
+button:hover {
+  color: crimson;
+  cursor: pointer;
+  font-size: large;
+}
+
+#price {
+  font-size: 15px;
+  font-family: cursive;
+  font-weight: 800;
+}
